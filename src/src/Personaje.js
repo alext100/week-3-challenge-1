@@ -2,13 +2,7 @@ class Personaje {
   nombre;
   familia;
   edad;
-  estado = "vivo";
-  AnosDeReinado = 2;
-  Arma;
-  Destreza;
-  Peloteo;
-  AsesoraA;
-  SirveA;
+  vivo = true;
   frase;
 
   constructor(nombre, familia, edad) {
@@ -22,7 +16,7 @@ class Personaje {
   };
 
   morir() {
-    this.estado = "muerto";
+    this.vivo = false;
   }
 
 }

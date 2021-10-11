@@ -7,7 +7,7 @@ class Escudero extends Personaje {
 
   constructor(nombre, familia, edad, luchador, pelotismo) {
     super(nombre, familia, edad);
-    this.comunicado = "Soy un loser";
+    this.frase = "Soy un loser";
     this.pelotismo = pelotismo;
 
     if (luchador instanceof Luchador) {
