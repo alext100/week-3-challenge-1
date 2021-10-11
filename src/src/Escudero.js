@@ -5,8 +5,8 @@ class Escudero extends Personaje {
   luchador;
   pelotismo;
 
-  constructor(nombre, familia, edad, luchador, pelotismo) {
-    super(nombre, familia, edad);
+  constructor(nombre, familia, image, edad, luchador, pelotismo) {
+    super(nombre, familia, image, edad);
     this.frase = "Soy un loser";
     this.pelotismo = pelotismo;
 

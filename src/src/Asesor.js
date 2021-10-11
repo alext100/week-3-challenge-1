@@ -6,8 +6,8 @@ import Personaje from "./Personaje.js";
 class Asesor extends Personaje {
   asesorado;
 
-  constructor(nombre, familia, edad, asesorado) {
-    super(nombre, familia, edad);
+  constructor(nombre, familia, image, edad, asesorado) {
+    super(nombre, familia, image, edad);
     this.frase = "No sé por qué, pero creo que voy a morir pronto";
 
     if (
