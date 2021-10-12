@@ -9,6 +9,7 @@ class Personaje extends Component {
   frase;
 
   constructor(parentElement, { nombre, familia, image, edad, vivo, frase }) {
+    super(parentElement);
     this.nombre = nombre;
     this.familia = familia;
     this.image = image;
