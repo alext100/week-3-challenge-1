@@ -1,5 +1,7 @@
-class PersonajeComponent {
-  constructor() {
+import Component from "./Component.js";
+
+class PersonajeComponent extends Component {
+  constructor(parentElement) {
     let component = document.createElement("div");
     component.innerHTML = `
     <div class="app container">
